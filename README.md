@@ -15,7 +15,7 @@ This is a responsive and modern website template for a company or business. It i
 
 ## WebSite is Live @:
 
-![Website Preview](https://aviacharya1.github.io/CompanyWebSite/)
+![Website Preview][https://aviacharya1.github.io/CompanyWebSite/]
 
 ## Getting Started
 
