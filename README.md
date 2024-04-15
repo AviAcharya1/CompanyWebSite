@@ -23,4 +23,4 @@ To get a local copy of this project up and running, follow these simple steps:
 
 1. Clone the repository
    ```sh
-   git clone https://github.com/aviacharya1/CompanyWebsite.git
+   git clone https://github.com/aviacharya1/CompanyWebSite.git
