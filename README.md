@@ -1,4 +1,4 @@
-# Company Website
+# Company Website(Clone)
 
 This is a responsive and modern website template for a company or business. It is built using HTML, CSS, and JavaScript, and it utilizes some popular libraries like AOS (Animate on Scroll) and Font Awesome.
 
@@ -13,9 +13,9 @@ This is a responsive and modern website template for a company or business. It i
 - Contact form integration (needs to be set up)
 - Smooth scroll to top button
 
-## Preview
+## WebSite is Live @:
 
-![Website Preview](./preview.png)
+![Website Preview](https://aviacharya1.github.io/CompanyWebSite/)
 
 ## Getting Started
 
