@@ -1,0 +1,594 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body
+{
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+/* Navbar starts */
+nav
+{
+    background-color: white;
+    padding: 17px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 2px 0px 20px 10px rgba(81, 81, 81, 0.31);
+    z-index: 999999999;
+}
+
+.brand-logo
+{
+    text-transform: uppercase;
+    font-size: 27px;
+    font-weight: 700;
+    margin-left: 83px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+}
+
+nav .brand-logo span
+{
+    color:  #1bbd36;
+}
+
+nav ul,nav ul li,nav div,nav div li
+{
+    display: inline;
+}
+nav ul
+{
+    margin-left: 390px;
+}
+
+nav ul li a
+{
+    margin-left: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    transition: color .6s;
+}
+
+nav div
+{
+    margin-left: 50px;
+}
+
+nav div li a
+{
+    margin-left: 25px;
+    text-decoration: none;
+    color: gray;
+    transition: color .6s;
+}
+
+nav ul li a:hover,nav div li a:hover
+{
+    color: #1bbd36;
+}
+
+/* Navbar ends */
+
+
+/* Banner starts */
+.banner
+{
+    background-color: red;
+    width: 100%;
+    height: 700px;
+    background-image: url(https://bootstrapmade.com/demo/templates/Company/assets/img/slide/slide-2.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .banner-content
+{
+    background-color: rgba(0, 0, 0, 0.77);
+    color: white;
+    width: 711px;
+    padding: 18px 20px;
+    border-top: 5px solid #1bbd36;
+}
+
+.banner .banner-content p
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner .banner-content .banner-btn
+{
+    width: 107px;
+    height: 34px;
+    margin: 5px auto;
+
+}
+.banner .banner-content a
+{
+    border: 2px solid #1bbd36;
+    padding: 7px 9px;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color .7s;
+}
+
+.banner .banner-content a:hover
+{
+    background-color: #1bbd36;
+}
+/* Banner Ends */
+
+/* Provident starts */
+.provident
+{
+    /* border: 2px solid red; */
+    margin: 50px 90px;
+    display: flex;
+}
+.provident-heading,.provident-text
+{
+    /* border: 2px solid blue; */
+    margin: 20px;
+    width: 50%;
+}
+.provident-heading h1
+{
+    font-size: 38px;
+    font-weight: 600;
+    line-height:60px;
+    margin-bottom: 20px;
+}
+
+.provident-heading h2
+{
+    font-weight: 500;
+}
+
+.provident-text p
+{
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1px;
+}
+
+.provident-text ul
+{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    list-style-type: none;  
+}
+.provident-text ul li 
+{
+    line-height: 27px;
+}
+.provident-text ul li i
+{
+    color: #1bbd36;
+    margin-right: 6px;
+}
+
+/* Provident ends */
+
+/* cards starts */
+    .cards
+    {
+        /* border: 2px solid red; */
+        background-color: rgba(211, 211, 211, 0.307);
+        padding: 20px 90px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .cards .card
+    {
+        /* border: 2px solid blue; */
+        width: 400px;
+        height: 300px;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        transition: all .8s;
+
+    }
+
+    .cards .card:hover
+    {
+        box-shadow: 2px 2px 30px 10px lightgray;
+    }
+
+    
+    .cards .card .card-content
+    {
+        /* border: 2px solid pink; */
+        width: 300px;
+        height: 250px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .cards .card .card-content h2
+    {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .cards .card .card-content i
+    {
+        font-size: 28px;
+        background-color: rgba(128, 128, 128, 0.15);
+        padding: 20px;
+        border-radius: 100%;
+        font-weight: bold;
+        transition: all .8s;
+    }
+    
+    .fa-dribbble
+    {
+        color: rgb(19, 181, 235);
+    }
+    .cards .card:hover i.fa-dribbble
+    {
+        background-color: rgb(19, 181, 235);
+        color: white;
+    }
+    .fa-file-text-o
+    {
+        color: orange;
+    }
+
+    .cards .card:hover .fa-file-text-o
+    {
+        background-color: orange;
+        color: white;
+    }
+    .fa-tachometer
+    {
+        color: crimson;
+    }
+
+    .cards .card:hover .fa-tachometer
+    {
+        background-color: crimson;
+        color: white;
+    }
+    .fa-sticky-note-o
+    {
+        color: rgb(255, 230, 0);
+    }
+    .cards .card:hover .fa-sticky-note-o
+    {
+        background-color: rgb(255, 230, 0);
+        color: white;
+    }
+    .fa-youtube-play
+    {
+        color: red;
+    }
+    .cards .card:hover .fa-youtube-play
+    {
+        background-color: red;
+        color: white;
+    }
+ 
+    .fa-anchor
+    {
+        color: rgb(148, 211, 233);
+    }
+    .cards .card:hover .fa-anchor
+    {
+        background-color: rgb(148, 211, 233);
+        color: white;
+    }
+/* cards ends */
+/* Clients starts */
+    .clients
+    {
+        /* border: 2px solid red; */
+        margin: 20px 90px;
+        padding: 28px;
+    }
+    .clients .image
+    {
+        border: 1px solid lightgray;
+        width: 320px;
+        height: 115px;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        display: inline-block;
+        text-align: center;
+        margin: -2.1px;
+    }
+    .clients .image img
+    {
+        width: 30%;
+        height: 30%;
+        margin-top: 12%;
+        filter: grayscale(100%);
+        transition: all .6s;
+    }
+    .clients .image:hover img
+    {
+        filter: none;
+        transform: scale(1.2);
+    }
+
+    .clients h1
+    {
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .clients hr
+    {
+        width: 50px;
+       background-color: #1bbd36;
+        height: 6px;
+        border: none;
+        margin: 2px auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+/* Clients ends */
+.pricing-heading
+{
+    background-color: #1bbd36;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+/* Pricing starts */
+    .pricing
+    {
+        /* border: 2px solid red; */
+        margin: 50px 90px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .pricing .card
+    {
+        border: 1px solid rgba(211, 205, 205, 0.445);
+        width: 315px;
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 18px;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    .pricing .card-header,.pricing .card-body,.pricing .card-footer
+    {
+        /* border: 2px solid blue; */
+        text-align: center;
+        
+    }
+
+    .pricing .card-header,.pricing .card-footer
+    {
+        padding: 20px;
+        background-color: rgba(211, 211, 211, 0.153);
+        font-size: 17px;
+        font-weight: 500;
+        color: gray;
+    }
+
+    .pricing .card .card-header
+    {
+        position: relative;
+    }
+
+    .pricing .card .card-header .advanced
+    {
+        background-color: #1bbd36;
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+        padding: 2px 30px;
+        transform: rotate(50deg);
+        position: absolute;
+        right: -36px;
+        top: 23px;
+
+    }
+    .pricing .card-body
+    {
+        padding: 10px;
+    }
+    .pricing .card-body ul li
+    {
+        list-style-type: none;
+        margin-bottom: 19px;
+    }
+    .pricing .card-footer a
+    {
+       
+        background-color: #1bbd36;
+        border-radius: 5px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        transition: all .4s;
+    }
+
+    .pricing .card-footer a:hover
+    {
+        background-color:#2ae149 ;
+    }
+    .pricing .card .card-body ul li span
+    {
+        font-size: 28px;
+        font-weight: bold;
+        color: #1bbd36;
+    }
+    .pricing .card .card-body ul li sup
+    {
+        color: #1bbd36;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .pricing .card .card-header-bg
+    {
+        background-color: #1bbd36;
+        color: white;
+    }
+/* Pricing ends */
+
+/* Footer Starts */
+footer
+{
+    background-color: rgba(0, 0, 0, 0.913);
+    color: white;
+    padding: 50px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div
+{
+    /* border: 2px solid red; */
+    margin: 10px;
+}
+.footer-company
+{
+    color: rgb(189, 185, 185);
+}
+.footer-company h2
+{
+    font-weight: 500;
+    color: white;
+}
+
+.footer-company p:nth-child(2)
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.footer-useful-links ul,.footer-our-services ul
+{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.footer-useful-links ul li,.footer-our-services ul li
+{
+    margin-bottom: 20px;
+   color: rgb(189, 185, 185); ;
+}
+.footer-useful-links ul li::before,.footer-our-services ul li::before
+{
+    content: ">";
+    margin-right: 10px;
+    color: #1bbd36;
+    font-weight: 500;
+}
+
+.footer-form p
+{
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.footer-form .subscribe input
+{
+    padding: 15px;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+}
+.footer-form .subscribe
+{
+    position: relative;
+}
+.footer-form .subscribe button
+{
+    padding: 15px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #1bbd36;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+/* Footer Ends */
+
+.copyright
+{
+    background-color: black;
+    color: white;
+    padding: 20px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright-icons ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+.copyright-icons ul li a
+{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 15px;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(74, 72, 72);
+    color: white;
+    padding: 5px;
+    padding-left: 7px;
+    border-radius: 3px;
+}
+
+.arrow
+{
+    background-color: #1bbd36;
+    padding: 9px;
+    width: 35px;
+    height:40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 200;
+    border-radius: 3px;
+    color: white;
+}
+
+.arrow a
+{
+    color: white;
+}
